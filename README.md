@@ -38,6 +38,18 @@ Capturas reales de la APK de revisión 4.3.4, en un emulador Android con datos d
   </tr>
 </table>
 
+## A tu estilo
+
+La misma pantalla con distintas preferencias reales de LifeOS 4.3.4. Puedes cambiar el tema claro u oscuro y el color de acento desde **Ajustes → Apariencia**; también dispone de fondos propios, foto personal opcional y reducción de transparencias.
+
+<table>
+  <tr>
+    <td align="center"><strong>Claro · rosa</strong><br /><img src="assets/screenshots/hoy.png" width="240" alt="LifeOS con tema claro y acento rosa" /></td>
+    <td align="center"><strong>Oscuro · lima</strong><br /><img src="assets/screenshots/tema-oscuro-lima.png" width="240" alt="LifeOS con tema oscuro y acento lima" /></td>
+    <td align="center"><strong>Oscuro · cian</strong><br /><img src="assets/screenshots/tema-oscuro-cian.png" width="240" alt="LifeOS con tema oscuro y acento cian" /></td>
+  </tr>
+</table>
+
 ## Qué puedes organizar
 
 | Tu día | Tus compromisos | Tu progreso |
