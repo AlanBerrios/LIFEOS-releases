@@ -1,13 +1,14 @@
 {
-  "versionCode": 10,
-  "versionName": "4.3.2",
-  "releaseDate": "2026-10-17T01:45:35.9476438Z",
+  "versionCode": 11,
+  "versionName": "4.3.3",
+  "releaseDate": "2026-10-17T02:26:07.9615115Z",
   "changelog": [
-    "Diagnostico JS local y limite de capturas simultaneas.",
-    "Canal publico de actualizaciones con comprobacion SHA-256 y tamano.",
-    "Reportes privados Supabase con inicio de sesion seguro y consentimiento."
+    "Reportes y sugerencias sin registro ni correo.",
+    "Captura nativa Android corregida y opcion de repetir sin perder texto.",
+    "Imagenes en cache privada, eliminadas al confirmar el envio.",
+    "Formulario adaptado al teclado, borradores y envios sin duplicados."
   ],
-  "apkUrl": "https://github.com/AlanBerrios/LIFEOS-releases/releases/download/v4.3.2/LIFEOS-4.3.2-review.apk",
-  "sha256": "321a63adb1cd0706ea9484dc033118b9293a94798f0d124416a2e4aec07ed1b7",
-  "sizeBytes": 55532080
+  "apkUrl": "https://github.com/AlanBerrios/LIFEOS-releases/releases/download/v4.3.3/LIFEOS-4.3.3-review.apk",
+  "sha256": "ca858bc7366aeedc4ffb3ee0bcdacefda6edfbc9c8ad65697bbc4dea723dbf99",
+  "sizeBytes": 55533916
 }
