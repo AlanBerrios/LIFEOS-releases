@@ -1,14 +1,14 @@
 {
-  "versionCode": 11,
-  "versionName": "4.3.3",
-  "releaseDate": "2026-10-17T02:26:07.9615115Z",
+  "versionCode": 13,
+  "versionName": "4.3.4",
+  "releaseDate": "2026-10-17T02:54:48.1253321Z",
   "changelog": [
-    "Reportes y sugerencias sin registro ni correo.",
-    "Captura nativa Android corregida y opcion de repetir sin perder texto.",
-    "Imagenes en cache privada, eliminadas al confirmar el envio.",
-    "Formulario adaptado al teclado, borradores y envios sin duplicados."
+    "Verificacion SHA-256 nativa del APK, con estado visible y tiempo limite.",
+    "Permiso de instalacion Android y reintento sin volver a descargar mientras el aviso este abierto.",
+    "Bichito movible en cualquier direccion; guarda su posicion.",
+    "GitHub en Ajustes apunta a las descargas y novedades publicas."
   ],
-  "apkUrl": "https://github.com/AlanBerrios/LIFEOS-releases/releases/download/v4.3.3/LIFEOS-4.3.3-review.apk",
-  "sha256": "ca858bc7366aeedc4ffb3ee0bcdacefda6edfbc9c8ad65697bbc4dea723dbf99",
-  "sizeBytes": 55533916
+  "apkUrl": "https://github.com/AlanBerrios/LIFEOS-releases/releases/download/v4.3.4/LIFEOS-4.3.4-review.apk",
+  "sha256": "c5683c2c1089d2fec75e162088bfdf970b2699a20d2296aa93dee40964ea497b",
+  "sizeBytes": 55540128
 }
