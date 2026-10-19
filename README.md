@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/AlanBerrios/LIFEOS-releases/releases/tag/v4.3.4"><strong>Descargar LifeOS 4.3.4</strong></a>
+  <a href="https://github.com/AlanBerrios/LIFEOS-releases/releases/tag/v4.3.5"><strong>Descargar LifeOS 4.3.5</strong></a>
   &nbsp; · &nbsp;
   <a href="https://github.com/AlanBerrios/LIFEOS-releases/releases">Todas las versiones</a>
   &nbsp; · &nbsp;
@@ -23,7 +23,7 @@
 
 ## Una mirada a LifeOS
 
-Capturas reales de la APK de revisión 4.3.4, en un emulador Android con datos de ejemplo. La apariencia puede variar según el tema, el color y tu teléfono.
+Galería conservada de la revisión 4.3.4, registrada en un emulador Android con datos de ejemplo. La apariencia puede variar según el tema, el color y tu teléfono. Estas imágenes no sustituyen las pruebas en un teléfono físico.
 
 <table>
   <tr>
@@ -62,18 +62,30 @@ Life es un prototipo personal conectado a Gemini: requiere internet y una clave 
 
 ## Instalar o actualizar
 
-1. Abre la [versión de revisión 4.3.4](https://github.com/AlanBerrios/LIFEOS-releases/releases/tag/v4.3.4) desde tu teléfono.
-2. En **Assets**, descarga `LIFEOS-4.3.4-review.apk`. No descargues los archivos **Source code**.
+1. Abre la [versión de revisión 4.3.5](https://github.com/AlanBerrios/LIFEOS-releases/releases/tag/v4.3.5) desde tu teléfono.
+2. En **Assets**, descarga el archivo terminado en `-review.apk`. No descargues los archivos **Source code**.
 3. Abre la APK y, si Android lo pide, autoriza la instalación desde ese navegador o gestor de archivos.
 4. Confirma **Instalar** o **Actualizar** en el instalador de Android.
 
-**Si ya usas LifeOS, instala encima de tu versión actual. No desinstales ni borres los datos para actualizar.** La APK es independiente: no necesita Expo Go ni una computadora encendida.
+**Si ya usas una APK de revisión compatible (mismo paquete y firma), actualiza encima. No desinstales ni borres los datos para actualizar.** La APK es independiente: no necesita Expo Go ni una computadora encendida.
 
 La app comprueba nuevas versiones al arrancar. También puedes buscarlas desde **Ajustes**. Descargar una actualización no la instala en silencio: Android siempre requiere tu confirmación.
 
-> **¿La 4.3.2 se quedó al 100%?** Descarga e instala esta revisión desde el navegador. La 4.3.4 corrige la verificación posterior a la descarga y explica el permiso de instalación. El fallo de la versión antigua no puede corregirse sin actualizarla.
+> **¿La 4.3.2 se quedó al 100%?** Descarga e instala esta revisión desde el navegador. La 4.3.4 incorpora una corrección de la verificación posterior a la descarga y explica el permiso de instalación; su aceptación en teléfono físico sigue pendiente. El fallo de la versión antigua no puede corregirse sin actualizarla.
 
-## Novedades de la 4.3.4
+## Novedades de la 4.3.5 · B1: uso diario
+
+- Acciones de guardar y cancelar separadas del scroll en formularios largos y selectores.
+- Metas de hábitos editables con punto o coma decimal; cancelar una edición no rellena el hábito nuevo con datos anteriores.
+- Calendario con eventos de todo el día en una franja propia, títulos en bloques cortos y espacio calculado según la fuente.
+- Horas fijas al desplazar la semana y conservación del día seleccionado al cambiar de vista.
+- Rueda de color con toque y arrastre; un arrastre cancelado no confirma el color.
+- Ajustes con desplazamiento consciente del teclado y mejores etiquetas/estados para accesibilidad.
+- Nivel de Hoy adaptable y requisitos completos con estado visible en Logros.
+
+**Revisión pendiente en teléfono:** teclado, gestos, scroll, TalkBack, fuente grande y ambos temas. Pasaron TypeScript, 417 tests existentes y las verificaciones del APK; no sustituyen esas pruebas reales. Las capturas de esta página siguen siendo de 4.3.4, no evidencias de 4.3.5.
+
+### Mejoras anteriores conservadas (4.3.4)
 
 - Verificación del APK en un hilo nativo, con estado visible y tiempo límite.
 - Acceso al permiso de instalación de Android y opción de reabrir el instalador sin volver a descargar mientras el aviso permanezca abierto.
@@ -87,15 +99,17 @@ Pulsa el **bicho flotante** dentro de LifeOS, escribe qué pasó y envía el rep
 
 - No necesitas crear una cuenta ni iniciar sesión.
 - Puedes revisar, quitar o repetir la captura antes de enviarla.
-- Las imágenes enviadas se almacenan de forma privada; no se publican en este GitHub.
+- El envío usa un servicio externo de reportes; no añade capturas a este repositorio.
 - La captura usa caché temporal, no la galería. Tras confirmar el envío se intenta eliminar la copia local; si falla la conexión, puede conservarse temporalmente para reintentar.
 
 Antes de enviar, comprueba que la captura no incluya claves, conversaciones ni documentos que no quieras compartir con el desarrollador.
 
+La retención y el procedimiento de eliminación remota siguen pendientes de definir antes de ampliar la distribución. Borrar datos de la app no elimina los reportes ya enviados.
+
 ## Preguntas frecuentes
 
 <details>
-<summary><strong>¿Por qué la APK pesa alrededor de 53 MB?</strong></summary>
+<summary><strong>¿Por qué la APK pesa alrededor de 53 MiB (55.540.128 bytes)?</strong></summary>
 
 Es la app completa, no un parche. Esta revisión incluye las arquitecturas `arm64-v8a` y `x86_64`, sin duplicar las bibliotecas nativas de las variantes de 32 bits. El tamaño no indica que falten funciones. Un teléfono exclusivamente de 32 bits no es compatible con esta APK.
 
