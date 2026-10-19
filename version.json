@@ -1,14 +1,18 @@
 {
-  "versionCode": 13,
-  "versionName": "4.3.4",
-  "releaseDate": "2026-10-17T02:54:48.1253321Z",
+  "versionCode": 14,
+  "versionName": "4.3.5",
+  "releaseDate": "2026-10-19T05:26:25.7766699Z",
   "changelog": [
-    "Verificacion SHA-256 nativa del APK, con estado visible y tiempo limite.",
-    "Permiso de instalacion Android y reintento sin volver a descargar mientras el aviso este abierto.",
-    "Bichito movible en cualquier direccion; guarda su posicion.",
-    "GitHub en Ajustes apunta a las descargas y novedades publicas."
+    "B1: acciones accesibles en formularios largos y selectores con teclado.",
+    "Habitos: metas decimales con punto o coma y borrador correcto al cancelar una edicion.",
+    "Calendario: franja de todo el dia, bloques cortos legibles, horas fijas y fecha seleccionada entre vistas.",
+    "Color: seleccion por toque y arrastre; cancelar el arrastre no confirma el color.",
+    "Ajustes: desplazamiento consciente del teclado y mejores estados y etiquetas accesibles.",
+    "Logros: estado Pendiente y requisitos completos; nivel de Hoy adaptable.",
+    "Revision: TypeScript y 417 tests correctos; validacion fisica Android pendiente.",
+    "Fuente compilada: e14d3b0fbb52cbd80b7cf7f4facd63da77760c9c. Firma debug para revision, no Google Play."
   ],
-  "apkUrl": "https://github.com/AlanBerrios/LIFEOS-releases/releases/download/v4.3.4/LIFEOS-4.3.4-review.apk",
-  "sha256": "c5683c2c1089d2fec75e162088bfdf970b2699a20d2296aa93dee40964ea497b",
-  "sizeBytes": 55540128
+  "apkUrl": "https://github.com/AlanBerrios/LIFEOS-releases/releases/download/v4.3.5/LIFEOS-4.3.5-code14-arm64-v8a+x86_64-e14d3b0f-20261019-022320-c8927c19-review.apk",
+  "sha256": "6227704a07b1b65da3f8d896fadb92fb9920e38e305a19328567166cc95ed976",
+  "sizeBytes": 55546432
 }
