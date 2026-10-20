@@ -3,12 +3,10 @@
   "versionName": "4.3.7.1",
   "releaseDate": "2026-10-20T15:14:44.4693414Z",
   "changelog": [
-    "Life: nuevo tutorial desde el icono de ayuda junto a papelera y configuracion.",
-    "Configuracion mas breve, con privacidad, archivos y costes en un acordeon al final.",
-    "Modelo avanzado: seleccion de modelos predefinidos y campo manual; disponibilidad segun cuenta.",
-    "Formularios: backdrop separado del contenido para evitar captura de gestos de scroll.",
-    "TypeScript y 488 tests correctos. Scroll y teclado pendientes de validacion fisica.",
-    "Fuente compilada: 16221d4d2beb277cb15aeecfde5654ffa8bc8891. Exporta una copia antes de instalar."
+    "Nuevo tutorial de Life: toca el icono de ayuda junto a la papelera y configuracion.",
+    "Configuracion de Life mas simple y breve, con los detalles de privacidad, archivos y costes desplegables al final.",
+    "Ahora puedes elegir un modelo de la lista o escribir uno personalizado.",
+    "Ajustamos los formularios para facilitar el desplazamiento al deslizar sobre su contenido."
   ],
   "apkUrl": "https://github.com/AlanBerrios/LIFEOS-releases/releases/download/v4.3.7.1/LIFEOS-4.3.7.1-code17-arm64-v8a+x86_64-16221d4d-20261020-120957-f52387ee-review.apk",
   "sha256": "d0d5572a6ca101e66b85704b642aa3b97e0c2d224ca2ae49f5fdb015fdc0c0d1",
