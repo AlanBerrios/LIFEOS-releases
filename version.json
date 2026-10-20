@@ -1,17 +1,16 @@
 {
-  "versionCode": 16,
-  "versionName": "4.3.7",
-  "releaseDate": "2026-10-20T14:46:43.3221597Z",
+  "versionCode": 17,
+  "versionName": "4.3.7.1",
+  "releaseDate": "2026-10-20T15:14:44.4693414Z",
   "changelog": [
-    "B1: formularios, teclado, calendario y selectores mas accesibles.",
-    "B2: propuestas de Life mas precisas y deshacer persistente restringido con conflictos bloqueantes.",
-    "B3: bienvenida manual y demo aislada; configuracion BYOK mas clara.",
-    "B3: restauraciones protegidas y acciones de habitos con progreso y XP guardados juntos.",
-    "Candidata de revision: TypeScript y 488 tests correctos; aceptacion fisica pendiente.",
-    "Exporta una copia antes de instalar. Datos locales v2: no se garantiza downgrade compatible.",
-    "Fuente compilada: bc485b011308af32213a5514705f997d5ecd9f7f. Firma debug para revision, no Google Play."
+    "Life: nuevo tutorial desde el icono de ayuda junto a papelera y configuracion.",
+    "Configuracion mas breve, con privacidad, archivos y costes en un acordeon al final.",
+    "Modelo avanzado: seleccion de modelos predefinidos y campo manual; disponibilidad segun cuenta.",
+    "Formularios: backdrop separado del contenido para evitar captura de gestos de scroll.",
+    "TypeScript y 488 tests correctos. Scroll y teclado pendientes de validacion fisica.",
+    "Fuente compilada: 16221d4d2beb277cb15aeecfde5654ffa8bc8891. Exporta una copia antes de instalar."
   ],
-  "apkUrl": "https://github.com/AlanBerrios/LIFEOS-releases/releases/download/v4.3.7/LIFEOS-4.3.7-code16-arm64-v8a+x86_64-bc485b01-20261020-023024-26e49c24-review.apk",
-  "sha256": "63a9faab1a5e82541b4f26982129c356cf82477be344c1f118b6cc4c503090c1",
-  "sizeBytes": 55621840
+  "apkUrl": "https://github.com/AlanBerrios/LIFEOS-releases/releases/download/v4.3.7.1/LIFEOS-4.3.7.1-code17-arm64-v8a+x86_64-16221d4d-20261020-120957-f52387ee-review.apk",
+  "sha256": "d0d5572a6ca101e66b85704b642aa3b97e0c2d224ca2ae49f5fdb015fdc0c0d1",
+  "sizeBytes": 55624888
 }
