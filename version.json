@@ -1,15 +1,16 @@
 {
-  "versionCode": 18,
-  "versionName": "4.3.7.2",
-  "releaseDate": "2026-10-20T15:31:03.4934744Z",
+  "versionCode": 19,
+  "versionName": "4.4.0",
+  "releaseDate": "2026-10-23T06:14:15.0226569Z",
   "changelog": [
-    "La ayuda de Life ahora explica que puede hacer por ti, con ejemplos de tareas, clases, horarios y propuestas.",
-    "Configuracion mas clara: confirmacion de clave guardada y acceso directo a la ayuda.",
-    "La clave guardada queda oculta; puedes cambiarla o cancelar el cambio con un panel animado.",
-    "Mas modelos para elegir: Gemini 3.1 Flash-Lite recomendado por coste, 3.5 Flash-Lite, 3.6 Flash y 3.8 Flash.",
-    "Se mantienen los modelos personalizados; Guardar cambios aparece solo cuando es necesario."
+    "Nuevo tutorial interactivo por fases: aprende a crear tareas, eventos, habitos, rutinas y notas, y a organizar tu dia.",
+    "Acceso a la ayuda desde el boton ? de Hoy y al inicio de Ajustes; puedes pausar y retomar el recorrido.",
+    "Conecta calendarios disponibles en tu telefono desde Calendario o Ajustes, con permiso de solo lectura.",
+    "Selecciona y previsualiza antes de confirmar; actualiza manualmente o desvincula conservando tus eventos.",
+    "Los eventos libres no bloquean tu plan y los calendarios del telefono no duplican avisos ni se envian a Life por defecto.",
+    "Mejoras de restauracion y guardado del tutorial. Exporta una copia antes de actualizar; version de revision pendiente de prueba en telefono."
   ],
-  "apkUrl": "https://github.com/AlanBerrios/LIFEOS-releases/releases/download/v4.3.7.2/LIFEOS-4.3.7.2-code18-arm64-v8a+x86_64-d8b543f2-20261020-122803-d6e05904-review.apk",
-  "sha256": "89673bc1eeaa76df0454d718bb060df33211a1cb2b7ecf45c38d1c3aa3d41e8e",
-  "sizeBytes": 55629076
+  "apkUrl": "https://github.com/AlanBerrios/LIFEOS-releases/releases/download/v4.4.0/LIFEOS-4.4.0-code19-arm64-v8a+x86_64-13f579fb-20261023-031017-426d32e8-review.apk",
+  "sha256": "6cd4a5e7c0cea84ee9293f255e4c4eb328e8cbca1b6a686b6cd810b588ee3c3e",
+  "sizeBytes": 55735528
 }
