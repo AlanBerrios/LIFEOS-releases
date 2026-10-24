@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/AlanBerrios/LIFEOS-releases/releases/tag/v4.5.0"><strong>Descargar LifeOS 4.5.0</strong></a>
+  <a href="https://github.com/AlanBerrios/LIFEOS-releases/releases/tag/v4.5.1"><strong>Descargar LifeOS 4.5.1</strong></a>
   &nbsp; · &nbsp;
   <a href="https://github.com/AlanBerrios/LIFEOS-releases/releases">Todas las versiones</a>
   &nbsp; · &nbsp;
@@ -81,7 +81,7 @@ Las sesiones de preparación son estimaciones: respetan el descanso, el sueño y
 
 ## Instalar o actualizar
 
-1. **Exporta una copia desde Ajustes** y abre la [versión de revisión 4.5.0](https://github.com/AlanBerrios/LIFEOS-releases/releases/tag/v4.5.0) desde tu teléfono.
+1. **Exporta una copia desde Ajustes** y abre la [versión de revisión 4.5.1](https://github.com/AlanBerrios/LIFEOS-releases/releases/tag/v4.5.1) desde tu teléfono.
 2. En **Assets**, descarga el archivo terminado en `-review.apk`. No descargues los archivos **Source code**.
 3. Abre la APK y, si Android lo pide, autoriza la instalación desde ese navegador o gestor de archivos.
 4. Confirma **Instalar** o **Actualizar** en el instalador de Android.
@@ -91,6 +91,17 @@ Las sesiones de preparación son estimaciones: respetan el descanso, el sueño y
 La app comprueba nuevas versiones al arrancar. También puedes buscarlas desde **Ajustes**. Descargar una actualización no la instala en silencio: Android siempre requiere tu confirmación.
 
 > **¿La 4.3.2 se quedó al 100%?** Descarga e instala esta revisión desde el navegador. La 4.3.4 incorpora una corrección de la verificación posterior a la descarga y explica el permiso de instalación; su aceptación en teléfono físico sigue pendiente. El fallo de la versión antigua no puede corregirse sin actualizarla.
+
+## Novedades de la 4.5.1
+
+Corrige Life después de probar la 4.5.0 con Gemini real:
+
+- **Cumpleaños y horarios desde Life:** los eventos de todo el día y las clases semanales leídas de un PDF o una foto ya no fallan con «Campo no permitido». Las clases incluyen su fecha de término.
+- **Consultas sin cambios:** si pides resumir un documento, consultar tu agenda o dices «no propongas cambios», Life no propone ninguna acción. Tampoco ofrece preparar una evaluación que no pediste solo porque aparece en tu agenda o en un documento.
+- **Avisos más claros:** pedir que desactive un aviso concreto genera la propuesta directamente. La confirmación adicional la sigue haciendo la app antes de guardar.
+- **Mensajes honestos:** Life no dice «he desactivado» ni «he creado» antes de que confirmes.
+
+**Límites:** probado con el modelo `gemini-3.1-flash-lite` y datos de ejemplo; otro modelo puede comportarse distinto. Con una clave gratuita, muchas consultas seguidas pueden agotar el límite por minuto: espera y reintenta. Pendiente la prueba en teléfono.
 
 ## Novedades de la 4.5.0
 
@@ -102,7 +113,7 @@ La app comprueba nuevas versiones al arrancar. También puedes buscarlas desde *
 - **Conversaciones más claras:** conserva el mensaje cuando falla una consulta, permite reintentar y diferencia respuestas incompletas, filtros y problemas del servicio. Una respuesta parcial nunca se aplica.
 - **Preparación protegida al restaurar y deshacer:** valida fechas reales con zona y los vínculos entre sesiones y evaluaciones.
 
-**Límites de esta revisión:** pendiente de prueba en teléfono, incluyendo teclado, tutorial, accesibilidad y uso con calendarios reales. El contrato ampliado de Life no se comprobó con Gemini real durante esta entrega; necesita disponibilidad y cuota para tu clave. Las capturas conservadas son de 4.3.4, no muestran estas novedades.
+**Límites de esta revisión:** pendiente de prueba en teléfono, incluyendo teclado, tutorial, accesibilidad y uso con calendarios reales. La prueba posterior con Gemini real encontró fallos que corrige la 4.5.1. Las capturas conservadas son de 4.3.4, no muestran estas novedades.
 
 ### Mejoras anteriores conservadas
 
