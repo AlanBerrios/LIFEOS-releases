@@ -1,17 +1,16 @@
 {
-  "versionCode": 20,
-  "versionName": "4.5.0",
-  "releaseDate": "2026-10-24T21:33:17.4713695Z",
-  "changelog": [
-    "Life ahora propone sesiones para preparar evaluaciones, presentaciones y entregas, respetando tus descansos y las sesiones que editaste.",
-    "Revisa los proximos siete dias con el boton de lista de Life, sin usar IA ni modificar tu agenda.",
-    "Pide a Life cambiar colores, emoji y ajustes permitidos. Siempre revisas y confirmas antes de guardar.",
-    "Tutorial mas completo: aprende paso a paso a rellenar los formularios de tareas, eventos, habitos, rutinas y notas.",
-    "Los eventos de todo el dia creados con Life ya no bloquean tu descanso; tambien admiten varias fechas.",
-    "Mejores mensajes ante respuestas incompletas y errores de Gemini; tu consulta se conserva para reintentar.",
-    "Mayor proteccion de los planes de estudio al restaurar copias y deshacer cambios. Exporta una copia antes de actualizar."
-  ],
-  "apkUrl": "https://github.com/AlanBerrios/LIFEOS-releases/releases/download/v4.5.0/LIFEOS-4.5.0-code20-arm64-v8a+x86_64-040b1678-20261024-182912-c44af297-review.apk",
-  "sha256": "6a1824cb410d120beda95afef62153ad0d0063662cc8f3fc196d0db82b426d9b",
-  "sizeBytes": 55804684
+    "versionCode":  21,
+    "versionName":  "4.5.1",
+    "releaseDate":  "2026-10-24T22:24:41.2890188Z",
+    "changelog":  [
+                      "Life ya no falla al proponer cumpleanos de todo el dia ni clases leidas de un PDF o una foto; las clases incluyen su fecha de termino.",
+                      "Si pides resumir, consultar o que no proponga cambios, Life no propone ninguna accion.",
+                      "Life no ofrece preparar una evaluacion que no pediste solo porque aparece en tu agenda o en un documento.",
+                      "Pedir que desactive un aviso concreto genera la propuesta directamente; la app mantiene su confirmacion adicional.",
+                      "Life ya no afirma haber desactivado o creado algo antes de que confirmes.",
+                      "Probado con Gemini real (gemini-3.1-flash-lite) y datos de ejemplo. Exporta una copia antes de actualizar."
+                  ],
+    "apkUrl":  "https://github.com/AlanBerrios/LIFEOS-releases/releases/download/v4.5.1/LIFEOS-4.5.1-code21-arm64-v8a+x86_64-46aaaf83-20261024-192117-f995ffc6-review.apk",
+    "sha256":  "67f973a272ab49c9439d89266f640a419371427ee87e19afba804270a7a5bc87",
+    "sizeBytes":  55816440
 }
