@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/AlanBerrios/LIFEOS-releases/releases/tag/v4.3.5"><strong>Descargar LifeOS 4.3.5</strong></a>
+  <a href="https://github.com/AlanBerrios/LIFEOS-releases/releases/tag/v4.5.0"><strong>Descargar LifeOS 4.5.0</strong></a>
   &nbsp; · &nbsp;
   <a href="https://github.com/AlanBerrios/LIFEOS-releases/releases">Todas las versiones</a>
   &nbsp; · &nbsp;
@@ -54,15 +54,34 @@ La misma pantalla con distintas preferencias reales de LifeOS 4.3.4. Puedes camb
 
 | Tu día | Tus compromisos | Tu progreso |
 | --- | --- | --- |
-| Planificación local y bloques de tiempo | Eventos y calendarios ICS | Hábitos, métricas y logros |
+| Planificación local y bloques de tiempo | Eventos, ICS y calendarios del teléfono | Hábitos, métricas y logros |
 | Tareas pendientes y avances parciales | Sueño, comidas y traslados | Notas y recordatorios |
 | Reorganización de la agenda | Rutinas semanales personalizadas | Asistente de texto **Life** |
 
-Life es un prototipo personal conectado a Gemini: requiere internet y una clave propia. Los cambios de planificación se presentan como propuestas para confirmar. No hace falta configurar IA para utilizar la organización habitual de la app.
+Life es tu asistente de texto opcional: ayuda a ordenar pendientes y preparar evaluaciones. Usa Gemini con internet, cuota disponible y una clave propia que configuras en el teléfono. Los cambios se presentan como propuestas para confirmar. No hace falta configurar IA para utilizar la organización habitual de la app.
+
+## Empieza sin perderte
+
+1. Abre el **? de Hoy** o el tutorial al inicio de **Ajustes**. El recorrido ilumina los controles y guía la creación de tareas, eventos, hábitos, rutinas y notas.
+2. En **Calendario → Calendarios del teléfono**, elige cuáles quieres añadir y revisa la previsualización. También puedes importar un ICS. LifeOS solo lee el calendario del teléfono: no lo modifica y la actualización es manual.
+3. Añade tus pendientes y pulsa **Organizar día** en Hoy. La planificación habitual se calcula en el dispositivo.
+4. Para conversar, configura **Life** y prueba los ejemplos de abajo. Revisa siempre la propuesta antes de confirmar.
+
+## Life, con ejemplos
+
+| Lo que necesitas | Qué puedes pedir |
+| --- | --- |
+| Vaciar pendientes de la cabeza | «Crea una tarea para estudiar cálculo y otra para comprar materiales». |
+| Preparar una evaluación | «Tengo una PEP de cálculo el viernes 30 de octubre de 2026 a las 10:00; propón tres sesiones de 45 minutos». |
+| Personalizar un compromiso | «Cambia el color de mi presentación a azul». |
+| Ajustar la apariencia | «Propón cambiar al tema claro». |
+| Entender tu semana sin usar IA | Pulsa el botón de lista en Life: revisa los próximos siete días localmente, sin enviarlos a Gemini. |
+
+Las sesiones de preparación son estimaciones: respetan el descanso, el sueño y los compromisos, pero no conocen tu temario ni garantizan resultados. Las sesiones que editaste quedan protegidas. Life no cambia claves, consentimiento, permisos de Android ni eventos de los calendarios del teléfono.
 
 ## Instalar o actualizar
 
-1. Abre la [versión de revisión 4.3.5](https://github.com/AlanBerrios/LIFEOS-releases/releases/tag/v4.3.5) desde tu teléfono.
+1. **Exporta una copia desde Ajustes** y abre la [versión de revisión 4.5.0](https://github.com/AlanBerrios/LIFEOS-releases/releases/tag/v4.5.0) desde tu teléfono.
 2. En **Assets**, descarga el archivo terminado en `-review.apk`. No descargues los archivos **Source code**.
 3. Abre la APK y, si Android lo pide, autoriza la instalación desde ese navegador o gestor de archivos.
 4. Confirma **Instalar** o **Actualizar** en el instalador de Android.
@@ -73,25 +92,26 @@ La app comprueba nuevas versiones al arrancar. También puedes buscarlas desde *
 
 > **¿La 4.3.2 se quedó al 100%?** Descarga e instala esta revisión desde el navegador. La 4.3.4 incorpora una corrección de la verificación posterior a la descarga y explica el permiso de instalación; su aceptación en teléfono físico sigue pendiente. El fallo de la versión antigua no puede corregirse sin actualizarla.
 
-## Novedades de la 4.3.5 · B1: uso diario
+## Novedades de la 4.5.0
 
-- Acciones de guardar y cancelar separadas del scroll en formularios largos y selectores.
-- Metas de hábitos editables con punto o coma decimal; cancelar una edición no rellena el hábito nuevo con datos anteriores.
-- Calendario con eventos de todo el día en una franja propia, títulos en bloques cortos y espacio calculado según la fuente.
-- Horas fijas al desplazar la semana y conservación del día seleccionado al cambiar de vista.
-- Rueda de color con toque y arrastre; un arrastre cancelado no confirma el color.
-- Ajustes con desplazamiento consciente del teclado y mejores etiquetas/estados para accesibilidad.
-- Nivel de Hoy adaptable y requisitos completos con estado visible en Logros.
+- **Tutorial más completo:** pasos dentro de los formularios para explicar nombres, duración, fechas, metas y repetición, con enfoque del campo correspondiente.
+- **Preparación académica con Life:** propuestas de sesiones para evaluaciones, presentaciones, laboratorios y entregas, calculadas en tiempo disponible. No usa tus días de descanso ni mueve sesiones que editaste.
+- **Revisión local de la semana:** detecta posibles choques, plazos sin tiempo reservado y evaluaciones sin preparación. Funciona sin Gemini y no modifica la agenda.
+- **Más personalización por conversación:** colores y emoji de tareas/eventos y una lista controlada de ajustes. Los cambios siempre se confirman; los avisos requieren confirmación adicional.
+- **Eventos de todo el día desde Life:** distingue un cumpleaños de un evento con horario para no bloquear el descanso por error.
+- **Conversaciones más claras:** conserva el mensaje cuando falla una consulta, permite reintentar y diferencia respuestas incompletas, filtros y problemas del servicio. Una respuesta parcial nunca se aplica.
+- **Preparación protegida al restaurar y deshacer:** valida fechas reales con zona y los vínculos entre sesiones y evaluaciones.
 
-**Revisión pendiente en teléfono:** teclado, gestos, scroll, TalkBack, fuente grande y ambos temas. Pasaron TypeScript, 417 tests existentes y las verificaciones del APK; no sustituyen esas pruebas reales. Las capturas de esta página siguen siendo de 4.3.4, no evidencias de 4.3.5.
+**Límites de esta revisión:** pendiente de prueba en teléfono, incluyendo teclado, tutorial, accesibilidad y uso con calendarios reales. El contrato ampliado de Life no se comprobó con Gemini real durante esta entrega; necesita disponibilidad y cuota para tu clave. Las capturas conservadas son de 4.3.4, no muestran estas novedades.
 
-### Mejoras anteriores conservadas (4.3.4)
+### Mejoras anteriores conservadas
 
-- Verificación del APK en un hilo nativo, con estado visible y tiempo límite.
-- Acceso al permiso de instalación de Android y opción de reabrir el instalador sin volver a descargar mientras el aviso permanezca abierto.
-- Botón de reportes que puedes arrastrar en cualquier dirección; recuerda su posición.
-- Enlace de GitHub en Ajustes dirigido a este repositorio de descargas.
-- Incluye los reportes sin registro y la captura nativa incorporados en la 4.3.3.
+- Tutorial por fases con foco, pausa y reanudación, disponible desde Hoy y Ajustes.
+- Calendarios del teléfono con selección, previsualización, permiso de solo lectura y actualización manual. No se comparten con Life por defecto.
+- Deshacer persistente para operaciones compatibles; puede bloquearse si los datos cambiaron después. No cubre todos los ajustes, rutinas, ICS ni reorganizaciones.
+- Formularios y selectores con acciones separadas del scroll, calendario Mes/Semana/Día y personalización por temas y colores.
+- Actualizador con comprobación de integridad y confirmación en el instalador de Android.
+- Botón de reportes arrastrable, sin registro, con captura temporal.
 
 ## Reportar un problema
 
@@ -109,7 +129,7 @@ La retención y el procedimiento de eliminación remota siguen pendientes de def
 ## Preguntas frecuentes
 
 <details>
-<summary><strong>¿Por qué la APK pesa alrededor de 53 MiB (55.540.128 bytes)?</strong></summary>
+<summary><strong>¿Por qué la APK pesa alrededor de 53 MiB?</strong></summary>
 
 Es la app completa, no un parche. Esta revisión incluye las arquitecturas `arm64-v8a` y `x86_64`, sin duplicar las bibliotecas nativas de las variantes de 32 bits. El tamaño no indica que falten funciones. Un teléfono exclusivamente de 32 bits no es compatible con esta APK.
 
