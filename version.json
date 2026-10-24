@@ -1,16 +1,17 @@
 {
-  "versionCode": 19,
-  "versionName": "4.4.0",
-  "releaseDate": "2026-10-23T06:14:15.0226569Z",
+  "versionCode": 20,
+  "versionName": "4.5.0",
+  "releaseDate": "2026-10-24T21:33:17.4713695Z",
   "changelog": [
-    "Nuevo tutorial interactivo por fases: aprende a crear tareas, eventos, habitos, rutinas y notas, y a organizar tu dia.",
-    "Acceso a la ayuda desde el boton ? de Hoy y al inicio de Ajustes; puedes pausar y retomar el recorrido.",
-    "Conecta calendarios disponibles en tu telefono desde Calendario o Ajustes, con permiso de solo lectura.",
-    "Selecciona y previsualiza antes de confirmar; actualiza manualmente o desvincula conservando tus eventos.",
-    "Los eventos libres no bloquean tu plan y los calendarios del telefono no duplican avisos ni se envian a Life por defecto.",
-    "Mejoras de restauracion y guardado del tutorial. Exporta una copia antes de actualizar; version de revision pendiente de prueba en telefono."
+    "Life ahora propone sesiones para preparar evaluaciones, presentaciones y entregas, respetando tus descansos y las sesiones que editaste.",
+    "Revisa los proximos siete dias con el boton de lista de Life, sin usar IA ni modificar tu agenda.",
+    "Pide a Life cambiar colores, emoji y ajustes permitidos. Siempre revisas y confirmas antes de guardar.",
+    "Tutorial mas completo: aprende paso a paso a rellenar los formularios de tareas, eventos, habitos, rutinas y notas.",
+    "Los eventos de todo el dia creados con Life ya no bloquean tu descanso; tambien admiten varias fechas.",
+    "Mejores mensajes ante respuestas incompletas y errores de Gemini; tu consulta se conserva para reintentar.",
+    "Mayor proteccion de los planes de estudio al restaurar copias y deshacer cambios. Exporta una copia antes de actualizar."
   ],
-  "apkUrl": "https://github.com/AlanBerrios/LIFEOS-releases/releases/download/v4.4.0/LIFEOS-4.4.0-code19-arm64-v8a+x86_64-13f579fb-20261023-031017-426d32e8-review.apk",
-  "sha256": "6cd4a5e7c0cea84ee9293f255e4c4eb328e8cbca1b6a686b6cd810b588ee3c3e",
-  "sizeBytes": 55735528
+  "apkUrl": "https://github.com/AlanBerrios/LIFEOS-releases/releases/download/v4.5.0/LIFEOS-4.5.0-code20-arm64-v8a+x86_64-040b1678-20261024-182912-c44af297-review.apk",
+  "sha256": "6a1824cb410d120beda95afef62153ad0d0063662cc8f3fc196d0db82b426d9b",
+  "sizeBytes": 55804684
 }
