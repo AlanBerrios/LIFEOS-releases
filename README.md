@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/AlanBerrios/LIFEOS-releases/releases/tag/v4.5.1"><strong>Descargar LifeOS 4.5.1</strong></a>
+  <a href="https://github.com/AlanBerrios/LIFEOS-releases/releases/tag/v4.6.0"><strong>Descargar LifeOS 4.6.0</strong></a>
   &nbsp; · &nbsp;
   <a href="https://github.com/AlanBerrios/LIFEOS-releases/releases">Todas las versiones</a>
   &nbsp; · &nbsp;
@@ -20,6 +20,17 @@
 </p>
 
 ---
+
+## Novedades en 4.6.0
+
+- Hoy destaca la accion que toca: organizar, empezar o registrar avance.
+- Tareas, calendario, ajustes y el chat de Life tienen una interfaz mas clara.
+- Los formularios muestran lo esencial y la guia te acompana hasta guardar.
+- Mejor lectura con letra grande y accesos que se reorganizan cuando falta espacio.
+
+Abre LifeOS o pulsa **Ajustes → Buscar actualizaciones**. Exporta una copia
+antes de actualizar y guarda cualquier formulario antes de cambiar el tamano
+de letra. Esta es una version de revision; falta aceptacion en telefono fisico.
 
 ## Una mirada a LifeOS
 
