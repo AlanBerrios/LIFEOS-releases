@@ -1,15 +1,15 @@
 {
-  "versionCode": 22,
-  "versionName": "4.6.0",
-  "releaseDate": "2026-11-19T05:30:25.1518678Z",
+  "versionCode": 23,
+  "versionName": "4.6.1",
+  "releaseDate": "2026-11-20T23:31:57.7105058Z",
   "changelog": [
-    "Hoy te muestra que toca ahora: organiza tu dia, empieza una tarea o registra avance en un toque.",
-    "Tareas, calendario, habitos, rutinas y ajustes son mas claros; los formularios muestran primero lo esencial.",
-    "Life tiene un chat renovado y la guia te acompana hasta guardar tu primera tarea.",
-    "Mejor lectura con letra grande y mas espacio para los accesos al cambiar el tamano de texto.",
-    "Antes de actualizar, exporta una copia desde Ajustes. Guarda o cierra cualquier formulario antes de cambiar el tamano de letra."
+    "Hoy y Tareas son mas compactos: queda mas espacio para ver el plan y los pendientes.",
+    "Textos y controles mejor proporcionados, con areas tactiles comodas.",
+    "Vuelve el vidrio sutil a la isla de navegacion y Ahora, sin desenfoque en vivo.",
+    "Se redujo trabajo innecesario al abrir formularios, filtrar y escribir. La respuesta en telefono aun necesita validacion.",
+    "Exporta una copia desde Ajustes antes de actualizar."
   ],
-  "apkUrl": "https://github.com/AlanBerrios/LIFEOS-releases/releases/download/v4.6.0/LIFEOS-4.6.0-code22-arm64-v8a+x86_64-bc6bf4b2-20261119-022706-4bb80716-review.apk",
-  "sha256": "2eeaba6ce53016ffa77546875efe933d606b428ec893fe8145fed631acbad9b7",
-  "sizeBytes": 55821552
+  "apkUrl": "https://github.com/AlanBerrios/LIFEOS-releases/releases/download/v4.6.1/LIFEOS-4.6.1-code23-arm64-v8a+x86_64-9877d4a9-20261120-202652-dc5f8c3c-review.apk",
+  "sha256": "bf751ba650d4e83cc525dcda734982db48724fdd94319ae08678939dbdb3c490",
+  "sizeBytes": 55826248
 }
