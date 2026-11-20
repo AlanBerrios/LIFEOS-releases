@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/AlanBerrios/LIFEOS-releases/releases/tag/v4.6.0"><strong>Descargar LifeOS 4.6.0</strong></a>
+  <a href="https://github.com/AlanBerrios/LIFEOS-releases/releases/tag/v4.6.1"><strong>Descargar LifeOS 4.6.1</strong></a>
   &nbsp; · &nbsp;
   <a href="https://github.com/AlanBerrios/LIFEOS-releases/releases">Todas las versiones</a>
   &nbsp; · &nbsp;
@@ -21,7 +21,17 @@
 
 ---
 
-## Novedades en 4.6.0
+## Novedades en 4.6.1
+
+Hoy y Tareas son más compactos, con mejor proporción de texto y controles.
+La isla de navegación y «Ahora» recuperan vidrio sutil sin desenfoque en vivo.
+Se redujo trabajo innecesario al abrir formularios, filtrar y escribir;
+la latencia en teléfono aún requiere validación.
+
+Abre LifeOS o pulsa **Ajustes → Buscar actualizaciones**. Exporta una copia
+antes de actualizar. Esta es una versión de revisión.
+
+### Cambios de 4.6.0
 
 - Hoy destaca la accion que toca: organizar, empezar o registrar avance.
 - Tareas, calendario, ajustes y el chat de Life tienen una interfaz mas clara.
