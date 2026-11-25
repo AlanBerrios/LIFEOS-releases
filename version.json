@@ -1,15 +1,13 @@
 {
-  "versionCode": 23,
-  "versionName": "4.6.1",
-  "releaseDate": "2026-11-20T23:31:57.7105058Z",
+  "versionCode": 24,
+  "versionName": "4.6.2",
+  "releaseDate": "2026-11-25T18:51:02.0461458Z",
   "changelog": [
-    "Hoy y Tareas son mas compactos: queda mas espacio para ver el plan y los pendientes.",
-    "Textos y controles mejor proporcionados, con areas tactiles comodas.",
-    "Vuelve el vidrio sutil a la isla de navegacion y Ahora, sin desenfoque en vivo.",
-    "Se redujo trabajo innecesario al abrir formularios, filtrar y escribir. La respuesta en telefono aun necesita validacion.",
+    "LifeOS prepara Calendario, Tareas, Hábitos y Más mientras muestra la pantalla de carga, en vez de esperar al primer toque.",
+    "Se quitó la pausa fija de arranque. La duración de la carga puede variar según el teléfono.",
     "Exporta una copia desde Ajustes antes de actualizar."
   ],
-  "apkUrl": "https://github.com/AlanBerrios/LIFEOS-releases/releases/download/v4.6.1/LIFEOS-4.6.1-code23-arm64-v8a+x86_64-9877d4a9-20261120-202652-dc5f8c3c-review.apk",
-  "sha256": "bf751ba650d4e83cc525dcda734982db48724fdd94319ae08678939dbdb3c490",
-  "sizeBytes": 55826248
+  "apkUrl": "https://github.com/AlanBerrios/LIFEOS-releases/releases/download/v4.6.2/LIFEOS-4.6.2-code24-arm64-v8a+x86_64-0596c3b6-20261125-154436-04ae2b1e-review.apk",
+  "sha256": "4d39ac918c63872e5b11b22dd7a75bbbe99cbe305d1b371253ce3ee32dd126f6",
+  "sizeBytes": 55828028
 }
