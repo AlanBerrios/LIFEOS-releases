@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/AlanBerrios/LIFEOS-releases/releases/tag/v4.6.1"><strong>Descargar LifeOS 4.6.1</strong></a>
+  <a href="https://github.com/AlanBerrios/LIFEOS-releases/releases/tag/v4.6.2"><strong>Descargar LifeOS 4.6.2</strong></a>
   &nbsp; · &nbsp;
   <a href="https://github.com/AlanBerrios/LIFEOS-releases/releases">Todas las versiones</a>
   &nbsp; · &nbsp;
@@ -21,7 +21,13 @@
 
 ---
 
-## Novedades en 4.6.1
+## Novedades en 4.6.2
+
+LifeOS prepara sus pestañas mientras muestra la pantalla de carga, en lugar
+de montarlas al primer toque. La duración del arranque puede variar según
+el teléfono. Para actualizar: **Ajustes → Buscar actualizaciones**.
+
+### Cambios de 4.6.1
 
 Hoy y Tareas son más compactos, con mejor proporción de texto y controles.
 La isla de navegación y «Ahora» recuperan vidrio sutil sin desenfoque en vivo.
